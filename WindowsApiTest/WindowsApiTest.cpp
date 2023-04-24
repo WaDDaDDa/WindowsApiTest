@@ -61,7 +61,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, // 내 프로그램의 고유번
         {
             // 발생된 이벤트를 처리해주는것.
             TranslateMessage(&msg);
-            DispatchMessage(&msg);
+            DispatchMessage(&msg); 
         }
     }
 
